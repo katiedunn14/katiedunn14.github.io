@@ -119,10 +119,17 @@ h2 {
   font-size: 4em;
 }
 
-h3, {
+h3 {
   font-family: 'Nova Mono', sans-serif;
   color: #FF69B5;
   font-size: 3em;
+}
+
+h4 {
+  font-family: 'Nova Mono', sans-serif;
+  color: #FF69B5;
+  font-size: 2em;
+
 }
 
 /* Body Text */
@@ -138,14 +145,20 @@ p {
 a:link,
 a:visited {
   font-family: 'Josefin Sans', sans-serif;
-  color: #FF69B5;
+  color: #066600;
   text-decoration: none;
 }
 
 a:hover {
-  text-decoration: underline;
+  color: #FF69B5;
 }
 
+
+ul li {
+  list-style: none;
+  font-size: 16px;
+  font-color: #066600;
+}
 
 
 section {
@@ -173,6 +186,7 @@ div.container {
   background: #B1FFA7;
 }
 
+
 footer p {
   text-align: center; 
   background-color: #FF69B5;
@@ -182,7 +196,7 @@ footer p {
   margin-bottom: 0px;
 }
 
-/* Ajustes para resoluciones pequeñas */
+/* Acordeon part from http://codepen.io/oloman/pen/Gynoq Ajustes para resoluciones pequeñas */
 @media(max-width:600px) {
   ul.acordeon li h4 {
     font-size: 12px;
