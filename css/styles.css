@@ -1,8 +1,6 @@
 /* Credit Goes to http://codepen.io/oloman/pen/Gynoq, This gallery design is not mine, altered to fit my style */
 
 html, body {
-  margin: 0;
-  padding:0;
   background: #B1FFA7;
 }
 
@@ -290,7 +288,11 @@ footer p {
   }
 
   h2,h3,h4 {
-      font-size: 3em;
+      font-size: 2em;
+  }
+
+  p {
+    font-size: 1.5em;
   }
 
   #logo {
