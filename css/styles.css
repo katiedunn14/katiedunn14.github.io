@@ -138,7 +138,6 @@ ul.acordeon li:hover {
 }
 */
 
-/*  Primary Header */
 
 h1 {
   font-family: 'Nova Mono', sans-serif;
@@ -167,7 +166,6 @@ h4 {
 
 }
 
-/* Body Text */
 
 p {
   font-family: 'Josefin Sans', sans-serif;
@@ -175,7 +173,6 @@ p {
   color: #066600;
 }
 
-/* Baseline Links */
 
 a:link,
 a:visited {
