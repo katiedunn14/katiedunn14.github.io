@@ -1,10 +1,45 @@
 /* Credit Goes to http://codepen.io/oloman/pen/Gynoq, This gallery design is not mine, altered to fit my style */
 
 html, body {
-  margin: 0;
-  padding:0;
   background: #B1FFA7;
 }
+
+/*Navigation from: http://codepen.io/pirrera/pen/zapbh, which I altered to fit my theme*/
+
+nav {
+  max-width: 960px;
+  mask-image: linear-gradient(90deg, rgba(255, 255, 255, 0) 0%, #ffffff 25%, #ffffff 75%, rgba(255, 255, 255, 0) 100%);
+  margin: 0 auto;
+}
+
+nav ul {
+  text-align: center;
+  background: linear-gradient(90deg, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.2) 25%, rgba(255, 255, 255, 0.2) 75%, rgba(255, 255, 255, 0) 100%);
+  box-shadow: 0 0 25px rgba(0, 0, 0, 0.1), inset 0 0 1px rgba(255, 255, 255, 0.6);
+}
+
+nav ul li {
+  display: inline-block;
+}
+
+nav ul li a {
+  padding: 18px;
+  font-family: 'Josefin Sans', sans-serif;;
+  text-transform:uppercase;
+  color: #066600;
+  font-size: 18px;
+  text-decoration: none;
+  display: block;
+}
+
+nav ul li a:hover {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1), inset 0 0 1px rgba(255, 255, 255, 0.6);
+  background: #FF69B5;
+  opacity: .5;
+  color: rgba(0, 35, 122, 0.7);
+}
+
+/*end nav*/
 
 ul.acordeon * {
   margin-top: 0px;
@@ -103,7 +138,6 @@ ul.acordeon li:hover {
 }
 */
 
-/*  Primary Header */
 
 h1 {
   font-family: 'Nova Mono', sans-serif;
@@ -132,7 +166,6 @@ h4 {
 
 }
 
-/* Body Text */
 
 p {
   font-family: 'Josefin Sans', sans-serif;
@@ -140,7 +173,6 @@ p {
   color: #066600;
 }
 
-/* Baseline Links */
 
 a:link,
 a:visited {
@@ -209,8 +241,8 @@ ul li {
 #logo {
   margin: 0;
   position: absolute;
-  top: 0;
-  right:0;
+  top: 50px;
+  left:800px;
   z-index: 1
 }
 
@@ -253,7 +285,11 @@ footer p {
   }
 
   h2,h3,h4 {
-      font-size: 3em;
+      font-size: 2em;
+  }
+
+  p {
+    font-size: 24px;
   }
 
   #logo {
@@ -264,7 +300,48 @@ footer p {
     max-width:300px;
   }
 
-  .grid {
+  nav {
+
+      position: absolute;
+     top: 0;
+      left: 0;
+
+  }
+
+ul li {
+  font-size: 18px;
+}
+ul {
+  float: left;
+}
+
+
+nav ul li a {
+  padding-bottom: 18px;
+  font-family: 'Josefin Sans', sans-serif;;
+  text-transform:uppercase;
+  color: #066600;
+  font-size: 16px;
+  text-decoration: none;
+}
+
+body, p, ul {
+  max-width: 400px;
+  content: 400px;
+}
+
+
+#float {
+  c
+}
+
+
+
+.container { width: 600px;}
+.grid_3 { width: 141px; }
+.grid_4 { width: 192px; }
+.grid_6 { width: 294px; }
+.grid_12 { width: 600px; }
 
   }
 }
