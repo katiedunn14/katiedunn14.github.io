@@ -111,24 +111,28 @@ h1 {
   font-size: 6em;
   margin-top: 25px;
   margin-bottom: 25px;
+  white-space: nowrap;
 }
 
 h2 {
   font-family: 'Josefin Sans', sans-serif;
   color: #066600;
   font-size: 4em;
+  white-space: nowrap;
 }
 
 h3 {
   font-family: 'Nova Mono', sans-serif;
   color: #FF69B5;
   font-size: 3em;
+  white-space: nowrap;
 }
 
 h4 {
   font-family: 'Nova Mono', sans-serif;
   color: #FF69B5;
   font-size: 2em;
+  white-space: nowrap;
 
 }
 
@@ -154,16 +158,54 @@ a:hover {
 }
 
 
+.color-1,
+.color-2,
+.color-3,
+.color-4,
+.color-5,
+.pattern-1,
+.pattern-2,
+.pattern-3 {
+  border: 1px solid #000;
+  float: left;
+  margin: 0 10px;
+  height: 50px;
+  width: 50px;
+}
+
+.color-1 {
+  background: #FF69B5;
+
+}
+
+.color-2 {
+  background: #066600;
+}
+
+.color-3 {
+  background:#B1FFA7;
+  }
+
+
+.pattern-1 {
+  background: url("../img/swirl_pattern.jpg");
+}
+
+.pattern-2 {
+  background: url("../img/congruent_pentagon.png");
+}
+
+.pattern-3 {
+  background: url("../img/water.jpg");
+}
+
 ul li {
+  font-family: 'Josefin Sans', sans-serif;
   list-style: none;
-  font-size: 16px;
+  font-size: 20px;
   font-color: #066600;
 }
 
-
-section {
-  margin: 20px 0;
-}
 
 #logo {
   margin: 0;
