@@ -300,7 +300,7 @@ footer p {
     max-width:300px;
   }
 
-  nav {
+  .nav {
 
       position: absolute;
      top: 0;
@@ -316,7 +316,7 @@ ul {
 }
 
 
-nav ul li a {
+.nav ul li a {
   padding-bottom: 18px;
   font-family: 'Josefin Sans', sans-serif;;
   text-transform:uppercase;
