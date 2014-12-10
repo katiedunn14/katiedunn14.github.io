@@ -111,28 +111,24 @@ h1 {
   font-size: 6em;
   margin-top: 25px;
   margin-bottom: 25px;
-  white-space: nowrap;
 }
 
 h2 {
   font-family: 'Josefin Sans', sans-serif;
   color: #066600;
   font-size: 4em;
-  white-space: nowrap;
 }
 
 h3 {
   font-family: 'Nova Mono', sans-serif;
   color: #FF69B5;
   font-size: 3em;
-  white-space: nowrap;
 }
 
 h4 {
   font-family: 'Nova Mono', sans-serif;
   color: #FF69B5;
   font-size: 2em;
-  white-space: nowrap;
 
 }
 
@@ -153,9 +149,12 @@ a:visited {
   text-decoration: none;
 }
 
-a:hover {
+a:hover,
+a:active {
   color: #FF69B5;
 }
+
+a:
 
 
 .color-1,
@@ -202,8 +201,8 @@ a:hover {
 ul li {
   font-family: 'Josefin Sans', sans-serif;
   list-style: none;
-  font-size: 20px;
-  font-color: #066600;
+  font-size: 25px;
+  color: #066600;
 }
 
 
