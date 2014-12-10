@@ -196,6 +196,10 @@ footer p {
   margin-bottom: 0px;
 }
 
+#me img {
+  width: 1000px;
+}
+
 /* Acordeon part from http://codepen.io/oloman/pen/Gynoq Ajustes para resoluciones pequeñas */
 @media(max-width:600px) {
   ul.acordeon li h4 {
