@@ -238,7 +238,7 @@ footer p {
   margin-bottom: 0px;
 }
 
-#me img {
+#me, #me2 {
   width: 1000px;
 }
 
@@ -250,10 +250,22 @@ footer p {
   }
 
   h1 {
-    font-size: 4em;
+    font-size: 3em;
+  }
+
+  h2,h3,h4 {
+      font-size: 3em;
   }
 
   #logo {
      display: none;
+  }
+
+  img {
+    max-width:300px;
+  }
+
+  .grid {
+
   }
 }
