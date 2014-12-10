@@ -246,8 +246,8 @@ ul li {
 #logo {
   margin: 0;
   position: absolute;
-  top: 0;
-  right:0;
+  top: 50px;
+  left:800px;
   z-index: 1
 }
 
